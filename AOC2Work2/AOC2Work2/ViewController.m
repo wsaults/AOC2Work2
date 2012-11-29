@@ -8,7 +8,17 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController () {
+    IBOutlet UISegmentedControl *optionsSegmentControl;
+    IBOutlet UISwitch *power;
+}
+
+-(IBAction)numberPressed:(id)sender;
+-(IBAction)operatorPressed:(id)sender;
+-(IBAction)clearDisplay:(id)sender;
+-(IBAction)changeOption:(id)sender;
+-(IBAction)powerSwitch:(id)sender;
+-(IBAction)info:(id)sender;
 
 @end
 
@@ -24,6 +34,30 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(IBAction)numberPressed:(id)sender {
+    
+}
+
+-(IBAction)operatorPressed:(id)sender {
+    
+}
+
+-(IBAction)clearDisplay:(id)sender {
+    
+}
+
+-(IBAction)changeOption:(id)sender {
+    
+}
+
+-(IBAction)powerSwitch:(id)sender {
+    
+}
+
+-(IBAction)info:(id)sender {
+    
 }
 
 @end

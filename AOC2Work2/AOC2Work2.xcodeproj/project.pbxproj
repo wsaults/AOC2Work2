@@ -18,6 +18,7 @@
 		BE1974A81666FFA900AE9319 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1974A71666FFA900AE9319 /* Default-568h@2x.png */; };
 		BE1974AB1666FFA900AE9319 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1974A91666FFA900AE9319 /* MainStoryboard.storyboard */; };
 		BE1974AE1666FFA900AE9319 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1974AD1666FFA900AE9319 /* ViewController.m */; };
+		BE1974B6166707FF00AE9319 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1974B5166707FF00AE9319 /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		BE1974AA1666FFA900AE9319 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		BE1974AC1666FFA900AE9319 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BE1974AD1666FFA900AE9319 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BE1974B4166707FF00AE9319 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		BE1974B5166707FF00AE9319 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				BE1974A91666FFA900AE9319 /* MainStoryboard.storyboard */,
 				BE1974AC1666FFA900AE9319 /* ViewController.h */,
 				BE1974AD1666FFA900AE9319 /* ViewController.m */,
+				BE1974B4166707FF00AE9319 /* Calculator.h */,
+				BE1974B5166707FF00AE9319 /* Calculator.m */,
 				BE1974981666FFA800AE9319 /* Supporting Files */,
 			);
 			path = AOC2Work2;
@@ -176,6 +181,7 @@
 				BE19749E1666FFA900AE9319 /* main.m in Sources */,
 				BE1974A21666FFA900AE9319 /* AppDelegate.m in Sources */,
 				BE1974AE1666FFA900AE9319 /* ViewController.m in Sources */,
+				BE1974B6166707FF00AE9319 /* Calculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
