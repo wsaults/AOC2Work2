@@ -8,7 +8,11 @@
 
 #import "SecondViewController.h"
 
-@interface SecondViewController ()
+@interface SecondViewController () {
+    
+}
+
+-(IBAction)dismissView:(id)sender;
 
 @end
 
@@ -33,6 +37,10 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(IBAction)dismissView:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end

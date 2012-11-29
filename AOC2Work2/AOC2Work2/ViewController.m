@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SecondViewController.h"
 #import "Calculator.h"
 
 @interface ViewController () {
@@ -14,7 +15,6 @@
     IBOutlet UISegmentedControl *optionsSegmentControl;
     IBOutlet UISwitch *power;
     IBOutlet UILabel *calculatorScreenLabel;
-    
 }
 
 @property (nonatomic, strong) NSMutableString *calulatorText;
@@ -26,7 +26,6 @@
 -(IBAction)clearDisplay:(id)sender;
 -(IBAction)changeOption:(id)sender;
 -(IBAction)powerSwitch:(id)sender;
--(IBAction)info:(id)sender;
 
 @end
 
@@ -62,8 +61,6 @@
             {
                 if (_augend >= 0) {
                     Calculator *calculatorBrain = [Calculator new];
-                    NSLog(@"_augend %i", _augend);
-                    NSLog(@"[_calulatorText integerValue] %i", [_calulatorText integerValue]);
                     [calculatorScreenLabel setText:[NSString stringWithFormat:@"%i",[calculatorBrain sumAugend:_augend Addend:[_calulatorText integerValue]]]];
                     _augend = -1;
                     _displayNeedsCleared = YES;
@@ -112,10 +109,6 @@
     if (![power isOn]) {
         [self clearDisplay:nil];
     }
-}
-
--(IBAction)info:(id)sender {
-    NSLog(@"Show info view");
 }
 
 @end
