@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Calculator : NSObject
+@interface Calculator : NSObject {
+    
+}
+
+-(NSInteger)sumAugend:(NSInteger)number1 Addend:(NSInteger)number2;
 
 @end

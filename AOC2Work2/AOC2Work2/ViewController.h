@@ -12,4 +12,10 @@
     
 }
 
+typedef enum {
+    WHITE,
+    BLUE,
+    GREEN
+} colorOptions;
+
 @end

@@ -306,6 +306,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="controlsView" destination="cYF-aU-sKB" id="nmt-PK-14j"/>
                         <outlet property="optionsSegmentControl" destination="HCN-99-l2T" id="IQ1-vr-c5f"/>
                         <outlet property="power" destination="YgP-rT-ina" id="PYL-LL-0q8"/>
                     </connections>
@@ -328,6 +329,7 @@
                 <relationship kind="action" name="numberPressed:"/>
                 <relationship kind="action" name="operatorPressed:"/>
                 <relationship kind="action" name="powerSwitch:"/>
+                <relationship kind="outlet" name="controlsView" candidateClass="UIView"/>
                 <relationship kind="outlet" name="optionsSegmentControl" candidateClass="UISegmentedControl"/>
                 <relationship kind="outlet" name="power" candidateClass="UISwitch"/>
             </relationships>
