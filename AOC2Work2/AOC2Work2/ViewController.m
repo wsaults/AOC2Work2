@@ -43,6 +43,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - Number presses
 -(IBAction)numberPressed:(id)sender {
     if ([power isOn]) {
         if (_displayNeedsCleared) {
@@ -54,6 +55,7 @@
     }
 }
 
+#pragma mark - Operation presses
 -(IBAction)operatorPressed:(id)sender {
     if ([power isOn]) {
         switch ([sender tag]) {
@@ -81,11 +83,13 @@
     }
 }
 
+#pragma mark - Clear the display
 -(IBAction)clearDisplay:(id)sender {
     [calculatorScreenLabel setText:@""];
     [_calulatorText setString:@""];
 }
 
+#pragma mark - Options segmented controller
 -(IBAction)changeOption:(id)sender {
     switch ([optionsSegmentControl selectedSegmentIndex]) {
         case WHITE:
@@ -105,8 +109,10 @@
     }
 }
 
+#pragma mark - Power switch
 -(IBAction)powerSwitch:(id)sender {
     if (![power isOn]) {
+        _augend = -1;
         [self clearDisplay:nil];
     }
 }

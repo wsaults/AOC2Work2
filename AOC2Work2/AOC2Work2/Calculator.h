@@ -12,6 +12,11 @@
     
 }
 
+/**
+ @param number1 - The first number in the addition sequence.
+ @param number2 - The second number in the addition sequence.
+ @return sumAugend - The sum of the 2 params.
+ **/
 -(NSInteger)sumAugend:(NSInteger)number1 Addend:(NSInteger)number2;
 
 @end
