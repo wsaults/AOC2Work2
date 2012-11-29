@@ -12,7 +12,11 @@
     IBOutlet UIView *controlsView;
     IBOutlet UISegmentedControl *optionsSegmentControl;
     IBOutlet UISwitch *power;
+    IBOutlet UILabel *calculatorScreenLabel;
+    
 }
+
+@property (nonatomic, strong) NSMutableString *calulatorText;
 
 -(IBAction)numberPressed:(id)sender;
 -(IBAction)operatorPressed:(id)sender;
@@ -28,7 +32,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	_calulatorText = [NSMutableString new];
 }
 
 - (void)didReceiveMemoryWarning
@@ -39,7 +43,8 @@
 
 -(IBAction)numberPressed:(id)sender {
     if ([power isOn]) {
-        NSLog(@"The power is on");
+        [_calulatorText appendString:[NSString stringWithFormat:@"%i",[sender tag]]];
+        [calculatorScreenLabel setText:_calulatorText];
     }
 }
 
@@ -50,23 +55,21 @@
 }
 
 -(IBAction)clearDisplay:(id)sender {
-    NSLog(@"Clear display");
+    [calculatorScreenLabel setText:@""];
+    [_calulatorText setString:@""];
 }
 
 -(IBAction)changeOption:(id)sender {
     switch ([optionsSegmentControl selectedSegmentIndex]) {
         case WHITE:
-            NSLog(@"White");
             [controlsView setBackgroundColor:[UIColor whiteColor]];
             break;
             
         case BLUE:
-            NSLog(@"Blue");
             [controlsView setBackgroundColor:[UIColor blueColor]];
             break;
             
         case GREEN:
-            NSLog(@"Green");
             [controlsView setBackgroundColor:[UIColor greenColor]];
             break;
             
