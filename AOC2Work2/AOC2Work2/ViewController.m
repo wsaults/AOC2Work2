@@ -73,7 +73,8 @@
                 // If the calc label contains a number
                 if (![calculatorScreenLabel.text isEqualToString:@""]) {
                     _augend = [_calulatorText integerValue];
-                    [self clearDisplay:nil];
+                    [calculatorScreenLabel setText:@""];
+                    [_calulatorText setString:@""];
                 }
                 break;
                 
@@ -87,6 +88,7 @@
 -(IBAction)clearDisplay:(id)sender {
     [calculatorScreenLabel setText:@""];
     [_calulatorText setString:@""];
+    _augend = -1;
 }
 
 #pragma mark - Options segmented controller
@@ -112,7 +114,6 @@
 #pragma mark - Power switch
 -(IBAction)powerSwitch:(id)sender {
     if (![power isOn]) {
-        _augend = -1;
         [self clearDisplay:nil];
     }
 }
