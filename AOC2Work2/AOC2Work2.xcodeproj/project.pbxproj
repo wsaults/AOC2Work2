@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE1974921666FFA800AE9319 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1974911666FFA800AE9319 /* UIKit.framework */; };
+		BE1974941666FFA800AE9319 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1974931666FFA800AE9319 /* Foundation.framework */; };
+		BE1974961666FFA800AE9319 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1974951666FFA800AE9319 /* CoreGraphics.framework */; };
+		BE19749C1666FFA900AE9319 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE19749A1666FFA900AE9319 /* InfoPlist.strings */; };
+		BE19749E1666FFA900AE9319 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE19749D1666FFA900AE9319 /* main.m */; };
+		BE1974A21666FFA900AE9319 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1974A11666FFA900AE9319 /* AppDelegate.m */; };
+		BE1974A41666FFA900AE9319 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1974A31666FFA900AE9319 /* Default.png */; };
+		BE1974A61666FFA900AE9319 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1974A51666FFA900AE9319 /* Default@2x.png */; };
+		BE1974A81666FFA900AE9319 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE1974A71666FFA900AE9319 /* Default-568h@2x.png */; };
+		BE1974AB1666FFA900AE9319 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1974A91666FFA900AE9319 /* MainStoryboard.storyboard */; };
+		BE1974AE1666FFA900AE9319 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1974AD1666FFA900AE9319 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE19748D1666FFA800AE9319 /* AOC2Work2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AOC2Work2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1974911666FFA800AE9319 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BE1974931666FFA800AE9319 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE1974951666FFA800AE9319 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BE1974991666FFA800AE9319 /* AOC2Work2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AOC2Work2-Info.plist"; sourceTree = "<group>"; };
+		BE19749B1666FFA900AE9319 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BE19749D1666FFA900AE9319 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE19749F1666FFA900AE9319 /* AOC2Work2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AOC2Work2-Prefix.pch"; sourceTree = "<group>"; };
+		BE1974A01666FFA900AE9319 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE1974A11666FFA900AE9319 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE1974A31666FFA900AE9319 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BE1974A51666FFA900AE9319 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BE1974A71666FFA900AE9319 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BE1974AA1666FFA900AE9319 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BE1974AC1666FFA900AE9319 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BE1974AD1666FFA900AE9319 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE19748A1666FFA800AE9319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1974921666FFA800AE9319 /* UIKit.framework in Frameworks */,
+				BE1974941666FFA800AE9319 /* Foundation.framework in Frameworks */,
+				BE1974961666FFA800AE9319 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE1974821666FFA800AE9319 = {
+			isa = PBXGroup;
+			children = (
+				BE1974971666FFA800AE9319 /* AOC2Work2 */,
+				BE1974901666FFA800AE9319 /* Frameworks */,
+				BE19748E1666FFA800AE9319 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE19748E1666FFA800AE9319 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE19748D1666FFA800AE9319 /* AOC2Work2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE1974901666FFA800AE9319 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE1974911666FFA800AE9319 /* UIKit.framework */,
+				BE1974931666FFA800AE9319 /* Foundation.framework */,
+				BE1974951666FFA800AE9319 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE1974971666FFA800AE9319 /* AOC2Work2 */ = {
+			isa = PBXGroup;
+			children = (
+				BE1974A01666FFA900AE9319 /* AppDelegate.h */,
+				BE1974A11666FFA900AE9319 /* AppDelegate.m */,
+				BE1974A91666FFA900AE9319 /* MainStoryboard.storyboard */,
+				BE1974AC1666FFA900AE9319 /* ViewController.h */,
+				BE1974AD1666FFA900AE9319 /* ViewController.m */,
+				BE1974981666FFA800AE9319 /* Supporting Files */,
+			);
+			path = AOC2Work2;
+			sourceTree = "<group>";
+		};
+		BE1974981666FFA800AE9319 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE1974991666FFA800AE9319 /* AOC2Work2-Info.plist */,
+				BE19749A1666FFA900AE9319 /* InfoPlist.strings */,
+				BE19749D1666FFA900AE9319 /* main.m */,
+				BE19749F1666FFA900AE9319 /* AOC2Work2-Prefix.pch */,
+				BE1974A31666FFA900AE9319 /* Default.png */,
+				BE1974A51666FFA900AE9319 /* Default@2x.png */,
+				BE1974A71666FFA900AE9319 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE19748C1666FFA800AE9319 /* AOC2Work2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1974B11666FFA900AE9319 /* Build configuration list for PBXNativeTarget "AOC2Work2" */;
+			buildPhases = (
+				BE1974891666FFA800AE9319 /* Sources */,
+				BE19748A1666FFA800AE9319 /* Frameworks */,
+				BE19748B1666FFA800AE9319 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AOC2Work2;
+			productName = AOC2Work2;
+			productReference = BE19748D1666FFA800AE9319 /* AOC2Work2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE1974841666FFA800AE9319 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Fullsail;
+			};
+			buildConfigurationList = BE1974871666FFA800AE9319 /* Build configuration list for PBXProject "AOC2Work2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE1974821666FFA800AE9319;
+			productRefGroup = BE19748E1666FFA800AE9319 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE19748C1666FFA800AE9319 /* AOC2Work2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE19748B1666FFA800AE9319 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE19749C1666FFA900AE9319 /* InfoPlist.strings in Resources */,
+				BE1974A41666FFA900AE9319 /* Default.png in Resources */,
+				BE1974A61666FFA900AE9319 /* Default@2x.png in Resources */,
+				BE1974A81666FFA900AE9319 /* Default-568h@2x.png in Resources */,
+				BE1974AB1666FFA900AE9319 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE1974891666FFA800AE9319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE19749E1666FFA900AE9319 /* main.m in Sources */,
+				BE1974A21666FFA900AE9319 /* AppDelegate.m in Sources */,
+				BE1974AE1666FFA900AE9319 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE19749A1666FFA900AE9319 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE19749B1666FFA900AE9319 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BE1974A91666FFA900AE9319 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE1974AA1666FFA900AE9319 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE1974AF1666FFA900AE9319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BE1974B01666FFA900AE9319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE1974B21666FFA900AE9319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AOC2Work2/AOC2Work2-Prefix.pch";
+				INFOPLIST_FILE = "AOC2Work2/AOC2Work2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BE1974B31666FFA900AE9319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AOC2Work2/AOC2Work2-Prefix.pch";
+				INFOPLIST_FILE = "AOC2Work2/AOC2Work2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE1974871666FFA800AE9319 /* Build configuration list for PBXProject "AOC2Work2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1974AF1666FFA900AE9319 /* Debug */,
+				BE1974B01666FFA900AE9319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE1974B11666FFA900AE9319 /* Build configuration list for PBXNativeTarget "AOC2Work2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1974B21666FFA900AE9319 /* Debug */,
+				BE1974B31666FFA900AE9319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE1974841666FFA800AE9319 /* Project object */;
+}
