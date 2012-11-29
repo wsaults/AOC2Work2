@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Calculator.h"
 
 @interface ViewController () {
     IBOutlet UIView *controlsView;
@@ -17,6 +18,8 @@
 }
 
 @property (nonatomic, strong) NSMutableString *calulatorText;
+@property (nonatomic) NSInteger augend;
+@property (nonatomic) BOOL displayNeedsCleared;
 
 -(IBAction)numberPressed:(id)sender;
 -(IBAction)operatorPressed:(id)sender;
@@ -33,24 +36,51 @@
 {
     [super viewDidLoad];
 	_calulatorText = [NSMutableString new];
+    _augend = -1;
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
 -(IBAction)numberPressed:(id)sender {
     if ([power isOn]) {
+        if (_displayNeedsCleared) {
+            [self clearDisplay:nil];
+        }
         [_calulatorText appendString:[NSString stringWithFormat:@"%i",[sender tag]]];
         [calculatorScreenLabel setText:_calulatorText];
+        _displayNeedsCleared = NO;
     }
 }
 
 -(IBAction)operatorPressed:(id)sender {
     if ([power isOn]) {
-        NSLog(@"The power is on");
+        switch ([sender tag]) {
+            case EQUALS:
+            {
+                if (_augend >= 0) {
+                    Calculator *calculatorBrain = [Calculator new];
+                    NSLog(@"_augend %i", _augend);
+                    NSLog(@"[_calulatorText integerValue] %i", [_calulatorText integerValue]);
+                    [calculatorScreenLabel setText:[NSString stringWithFormat:@"%i",[calculatorBrain sumAugend:_augend Addend:[_calulatorText integerValue]]]];
+                    _augend = -1;
+                    _displayNeedsCleared = YES;
+                }
+                break;
+            }
+            case ADDITION:
+                // If the calc label contains a number
+                if (![calculatorScreenLabel.text isEqualToString:@""]) {
+                    _augend = [_calulatorText integerValue];
+                    [self clearDisplay:nil];
+                }
+                break;
+                
+            default:
+                break;
+        }
     }
 }
 

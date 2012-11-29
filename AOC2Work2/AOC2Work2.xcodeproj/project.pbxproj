@@ -19,6 +19,7 @@
 		BE1974AB1666FFA900AE9319 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1974A91666FFA900AE9319 /* MainStoryboard.storyboard */; };
 		BE1974AE1666FFA900AE9319 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1974AD1666FFA900AE9319 /* ViewController.m */; };
 		BE1974B6166707FF00AE9319 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1974B5166707FF00AE9319 /* Calculator.m */; };
+		BE1974B916671A2D00AE9319 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1974B816671A2D00AE9319 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		BE1974AD1666FFA900AE9319 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BE1974B4166707FF00AE9319 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
 		BE1974B5166707FF00AE9319 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		BE1974B716671A2D00AE9319 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		BE1974B816671A2D00AE9319 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				BE1974A91666FFA900AE9319 /* MainStoryboard.storyboard */,
 				BE1974AC1666FFA900AE9319 /* ViewController.h */,
 				BE1974AD1666FFA900AE9319 /* ViewController.m */,
+				BE1974B716671A2D00AE9319 /* SecondViewController.h */,
+				BE1974B816671A2D00AE9319 /* SecondViewController.m */,
 				BE1974B4166707FF00AE9319 /* Calculator.h */,
 				BE1974B5166707FF00AE9319 /* Calculator.m */,
 				BE1974981666FFA800AE9319 /* Supporting Files */,
@@ -182,6 +187,7 @@
 				BE1974A21666FFA900AE9319 /* AppDelegate.m in Sources */,
 				BE1974AE1666FFA900AE9319 /* ViewController.m in Sources */,
 				BE1974B6166707FF00AE9319 /* Calculator.m in Sources */,
+				BE1974B916671A2D00AE9319 /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

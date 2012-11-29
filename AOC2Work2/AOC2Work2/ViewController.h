@@ -18,4 +18,9 @@ typedef enum {
     GREEN
 } colorOptions;
 
+typedef enum {
+    EQUALS = 11,
+    ADDITION
+} operatorOptions;
+
 @end

@@ -10,4 +10,8 @@
 
 @implementation Calculator
 
+-(NSInteger)sumAugend:(NSInteger)number1 Addend:(NSInteger)number2 {
+    return number1 + number2;
+}
+
 @end
